@@ -1,0 +1,72 @@
+form{
+   max-width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 3em;
+}
+/* Style rule for input, select, and textarea form elements */
+input, select, textarea{
+	display: inline-block;
+	margin-bottom: 1em;
+}
+/* Style rule for label element 
+.lbl,.error{
+	display: block;
+}*/
+
+.error {
+   color: rgba(255, 17, 0, 0.705);
+  
+}
+/* Style rule for chkbx class*/
+.chkbx{
+	display: inline-block;
+}
+.radio{
+   display: inline-block;
+}
+/* style rule for btn class */
+.btn{
+  max-width: 45%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+ /*  Media query for tanblet viewport targets screen size with a minimum width if 660px */
+
+ @media only screen and (min-width: 660px){
+    /* Style rule for label element */
+.lbl{
+	float: left;
+	padding-right: 0.5em;
+	text-align: right;
+	width: 5em;
+}
+
+.radio{
+   display: inline;
+   margin-left: 10em;
+}
+/* Style rule for unordered list within a form */
+form ul{
+   list-style-type: none;
+   margin-left: 0em;
+}
+ }
+
+@media only screen and (min-width: 830px){
+  
+   .contact {
+		color: #FFFFFF;
+   }
+   .radio{
+   display: inline;
+   margin-left: 13em;
+}
+/* Style rule for unordered list within a form */
+form ul{
+   list-style-type: none;
+   margin-left: 0em;
+}
+}

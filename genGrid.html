@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="http://12.42.204.30:7002/jquery.jtable.js"></script>
+<script src="http://12.42.204.30:7002/scripts/helpers.js"></script>
+<link href="http://12.42.204.30:7002/themes/lightcolor/red/jtable.css" rel="stylesheet">
+
+                                                <!-- The above code should not be changed -->
+
+<link href="css/myStyles.css" rel="stylesheet"> <!-- Modify myStyles.css to add additional styles -->
+
+<title>Generation Tea Appliances</title>                             <!-- Modify title for your application -->
+
+<script>
+	$(document).ready(function() {
+		$('#container1').jtable({
+			title : 'product',
+			paging : true,
+			pageSize : 15,
+			sorting : false,
+			defaultSorting : 'model_no DESC',
+			actions : {
+				listAction : '/prodv1.html'
+			},
+			fields : {
+				product_id : {
+					title : 'ID',
+					width : '10%',
+					list : true
+				},
+				model_no : {
+					title : 'Model No',
+					width : '10%',
+					list : true
+				},
+				capacity : {
+					title : 'Capacity',
+					width : '10%',
+					list : true
+				},
+				color : {
+					title : 'Color',
+					width : '10%',
+					list : true,
+				},
+				description : {
+					title : 'Description',
+					width : '25%',
+					list : true,
+				},
+				unit_price : {
+					title : 'Unit price',
+					width : '10%',
+					list : true,
+				},
+			}
+		});
+		$('#container1').jtable('load');
+	});
+</script>
+</head>
+
+<body>
+  <div id="container1"></div>
+</body>
+</html>

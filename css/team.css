@@ -1,0 +1,40 @@
+﻿section{
+	opacity: 0.8;
+	padding: 1em;
+}
+/* style for aside element */
+aside{
+	background-color: #ffffff;
+	border-radius: 5em 5em 5em 5em;
+	box-shadow: 1em 1em 1em black;
+	padding: 1.5em;
+	margin: 1em;
+	font-style: italic;
+}
+main article img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.teamdesktop{
+	display: none;
+}
+
+@media only screen and (min-width : 615px){
+   article{
+	background-color: #acb3ca;
+	float: left;
+	margin: 0.5%;
+	padding: 0.5%;
+	text-align: center;
+	width: 31%;
+}
+.teamdesktop{
+	display: inline;
+}
+}
+@media only screen and (min-width: 769px){
+   .teamdesktop{
+	display: inline;
+}
+}

@@ -1,0 +1,280 @@
+{"product":[
+	{
+		"Name":"GTA5467 Electric glass kettle with LED indicator",
+		"Stock":"5467/1",
+		"Quantity":"30",
+		"Color":"Black",
+		"price":"$75"
+	},
+	{
+		"Name":"GTA5467 Electric glass kettle with LED indicator",
+		"Stock":"5467/2",
+		"Quantity":"29",
+		"Color":"Space grey",
+		"price":"$75"
+	},{
+		"Name":"GTA5467 Electric glass kettle with LED indicator",
+		"Stock":"5467/3",
+		"Quantity":"28",
+		"Color":"Silver",
+		"price":"$75"
+	},
+	{
+		
+		"Name":"GTA5337 Automatic Electric steel kettle",
+		"Stock":"5337/1",
+		"Quantity":"25",
+		"Color":"Black",
+		"price":"$60"
+	},
+	{
+		
+		"Name":"GTA5337 Automatic Electric steel kettle",
+		"Stock":"5337/2",
+		"Quantity":"28",
+		"Color":"Space grey",
+		"price":"$60"
+	},
+	{
+		
+		"Name":"GTA5337 Automatic Electric steel kettle",
+		"Stock":"5337/3",
+		"Quantity":"24",
+		"Color":"Silver",
+		"price":"$60"
+	},
+	{
+		
+		"Name":"GTA5338 Manual Electric steel kettle",
+		"Stock":"5338/1",
+		"Quantity":"20",
+		"Color":"Black",
+		"price":"$80"
+	},
+	{
+		
+		"Name":"GTA5338 Manual Electric steel kettle",
+		"Stock":"5338/2",
+		"Quantity":"20",
+		"Color":"Space grey",
+		"price":"$80"
+	},{
+		
+		"Name":"GTA5338 Manual Electric steel kettle",
+		"Stock":"5338/3",
+		"Quantity":"20",
+		"Color":"Silver",
+		"price":"$80"
+	},
+	{
+		
+		"Name":"GTA5335 Automatic Electric 3 in 1 kettle",
+		"Stock":"5335/1",
+		"Quantity":"40",
+		"Color":"Black",
+		"price":"$80"
+	},
+	{
+		
+		"Name":"GTA5335 Automatic Electric 3 in 1 kettle",
+		"Stock":"5335/2",
+		"Quantity":"40",
+		"Color":"Space grey",
+		"price":"$80"
+	},{
+		
+		"Name":"GTA5335 Automatic Electric 3 in 1 kettle",
+		"Stock":"5335/3",
+		"Quantity":"40",
+		"Color":"Silver",
+		"price":"$80"
+	},
+	{
+
+		"Name":"GTA5467 Copper kettle",
+		"Stock":"5467/1",
+		"Quantity":"10",
+		"Color":"black",
+		"price":"$75"
+	},
+	{
+
+		"Name":"GTA5467 Copper kettle",
+		"Stock":"5467/2",
+		"Quantity":"7",
+		"Color":"Space Grey",
+		"price":"$75"
+	},
+	{
+
+		"Name":"GTA5467 Copper kettle",
+		"Stock":"5467/3",
+		"Quantity":"30",
+		"Color":"Silver",
+		"price":"$75"
+	},
+	{
+
+		"Name":"GTA5430 Vintage steel kettle",
+		"Stock":"5430/1",
+		"Quantity":"20",
+		"Color":"black",
+		"price":"$60"
+	},
+	{
+
+		"Name":"GTA5430 Vintage steel kettle",
+		"Stock":"5430/2",
+		"Quantity":"7",
+		"Color":"Space Grey",
+		"price":"$60"
+	},
+	{
+
+		"Name":"GTA5430 Vintage steel kettle",
+		"Stock":"5430/3",
+		"Quantity":"30",
+		"Color":"Silver",
+		"price":"$60"
+	},
+	
+	{
+      "Name": "GTA5339 Normal small steel kettle",
+      "Stock": "5339/1",
+      "Quantity": "10",
+      "Color": "Black",
+      "price": "$70"
+   },
+	{
+      "Name": "GTA5339 Normal small steel kettle",
+      "Stock": "5339/2",
+      "Quantity": "10",
+      "Color": "grey",
+      "price": "$70"
+   },
+
+	{
+
+		"Name":"GTA5339 Normal small steel kettle",
+		"Stock":"5339/3",
+		"Quantity":"10",
+		"Color":"Steel grey",
+		"price":"$70"
+	},
+
+	{
+      "Name": "GTA5339 Normal small steel kettle",
+      "Stock": "5339/1",
+      "Quantity": "70",
+      "Color": " Space Grey",
+      "price": "$70"
+   },
+	{
+      "Name": "GTA4563 Milk boiler/ water boiler/ tea maker",
+      "Stock": "4563/1",
+      "Quantity": "40",
+      "Color": "Space grey",
+      "price": "$90"
+   },
+	{
+      "Name": "GTA5339 Automatic tea cum egg boiler kettle",
+      "Stock": "5339/2",
+      "Quantity": "70",
+      "Color": "Space grey",
+      "price": "$70"
+   },
+
+	{
+      "Name": "GTA4563 Milk boiler/ water boiler/ tea maker",
+      "Stock": "4563/2",
+      "Quantity": "40",
+      "Color": "Silver",
+      "price": "$90"
+   },
+	
+	{
+      "Name": "GTA5339 Automatic tea cum egg boiler kettle",
+      "Stock": "5339/3",
+      "Quantity": "70",
+      "Color": "black",
+      "price": "$70"
+   },
+	{
+
+		"Name":"GTA4563 Milk boiler/ water boiler/ tea maker",
+		"Stock":"4563/3",
+		"Quantity":"40",
+		"Color":"black",
+		"price":"$90"
+	},
+	{
+		"Name": "GTA5349 Automatic Broad mouth kettle",
+		"Stock": "5349/1",
+		"Quantity": "10",
+		"Color": "Black",
+		"price": "$70"
+	 },
+	  {
+		"Name": "GTA5349 Automatic Broad mouth kettle",
+		"Stock": "5349/2",
+		"Quantity": "10",
+		"Color": "grey",
+		"price": "$70"
+	 },
+  
+	  {
+  
+		  "Name":"GTA5349 Automatic Broad mouth kettle",
+		  "Stock":"5349/3",
+		  "Quantity":"10",
+		  "Color":"Steel grey",
+		  "price":"$70"
+	  },
+	  {
+		"Name": "GTA5366 Small steel kettle",
+		"Stock": "5366/1",
+		"Quantity": "10",
+		"Color": "Black",
+		"price": "$70"
+	 },
+	  {
+		"Name": "GTA5366 Small steel kettle",
+		"Stock": "5366/2",
+		"Quantity": "10",
+		"Color": "grey",
+		"price": "$70"
+	 },
+  
+	  {
+  
+		  "Name":"GTA5366 Small steel kettle",
+		  "Stock":"5366/3",
+		  "Quantity":"10",
+		  "Color":"Steel grey",
+		  "price":"$70"
+	  },
+	  {
+		"Name": "GTA5339 Normal Steel kettle",
+		"Stock": "5369/1",
+		"Quantity": "10",
+		"Color": "Black",
+		"price": "$30"
+	 },
+	  {
+		"Name": "GTA5339 Normal Steel kettle",
+		"Stock": "5369/2",
+		"Quantity": "10",
+		"Color": "grey",
+		"price": "$30"
+	 },
+  
+	  {
+  
+		  "Name":"GTA5339 Normal Steel kettle",
+		  "Stock":"5369/3",
+		  "Quantity":"10",
+		  "Color":"Steel grey",
+		  "price":"$30"
+	  }
+	
+]}

@@ -1,0 +1,83 @@
+/*styles for Mobile Layout*/
+
+/*Style for table element */
+table{
+	border: 0.1em solid #000000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%; 
+}
+/*Style specifies border and padding for th and td elements*/
+th,td{
+border: 0.1em solid #000000;
+padding: 1em;
+}
+/* style specifies th element*/
+th{
+	background-color: #1D1D1C;
+	color: #FFFFFF;
+}
+/*Style for the caption element*/
+caption{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+
+}
+tr:nth-child(even) {background-color: #6c7c7988;}
+tr:hover {
+	background-color:#343343;
+	color: white;
+}
+
+ @media only screen and (min-width: 615px){
+    
+
+table{
+	border: 0.1em solid #000000;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%; 
+}
+/*Style specifies border and padding for th and td elements*/
+th,td{
+border: 0.1em solid #000000;
+padding: 1em;
+}
+/* style specifies th element*/
+th{
+	background-color: #1D1D1C;
+	color: #FFFFFF;
+}
+/*Style for the caption element*/
+caption{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+
+}
+tr:nth-child(even) {background-color: white;}
+tr:hover {
+	background-color:black;
+	color: #BE9063;
+}
+ }
+
+ @media only screen and (min-width: 769px){
+    /* Style for table element*/
+	table{
+	background-color: #FFFFFF;
+	width: 65%;
+}
+/*Style for caption element*/
+caption{
+  color: #FFFFFF;
+}
+tr:nth-child(even) {background-color:#A4978E ;}
+tr:hover {
+	background-color:black;
+	color: #BE9063;
+}
+ }

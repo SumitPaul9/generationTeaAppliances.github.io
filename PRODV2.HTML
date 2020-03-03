@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="http://12.42.204.30:7002/jquery.jtable.js"></script>
+<script src="http://12.42.204.30:7002/scripts/helpers.js"></script>
+<link href="http://12.42.204.30:7002/themes/lightcolor/gray/jtable.css" rel="stylesheet">
+
+                                                <!-- The above code should not be changed -->
+
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link href="css/myStyles.css" rel="stylesheet"> <!-- Modify myStyles.css to add additional styles -->
+
+<title>Generation Tea Appliances</title>   <!-- Modify title for your application -->
+
+<script>
+	$(document).ready(function() {
+		$('#container1').jtable({
+			title : 'product',
+			paging : true,
+			pageSize : 10,
+			sorting : true,
+			defaultSorting : 'order_id ',
+			actions : {
+				listAction : 'genJson2.rpgle?jtView=prodV2'
+			},
+			fields : {
+				
+				customer_name : {
+					title : 'Name',
+					width : '20%',
+					list : true
+				},
+				order_date : {
+					title : 'Order_date',
+					width : '10%',
+					list : true
+				},
+				order_id : {
+					title : 'ID',
+					width : '5%',
+					list : true,
+				},
+				part_code : {
+				 	title : 'Part Code',
+					width : '12%',
+					list : true,
+				},
+         num_ordered: {
+           title: 'Quantity',
+           width: '8%',
+           list: true,
+        },
+         quoted_price: {
+           title: 'Quoted price',
+           width: '15%',
+           list: true,
+        },
+         description: {
+           title: 'Description',
+           width: '30%',
+           list: true,
+        },
+			}
+		});
+		$('#container1').jtable('load');
+	});
+</script>
+</head>
+
+<body>
+	<div id="container">
+	<header>
+		<a href="index.html"><img src="images/banner-our-products.jpg" class="banner" alt="Generation Tea Appliances"></a>
+	</header>
+	<div class="nav">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="team.html">Meet Our Team</a></li>
+				<li><a href="http://12.42.204.30:7258/prodv1.html">Products</a></li>
+				<li><a href="training.html">Training Schedule</a></li>
+				<li><a href="contact.html">Contact Us </a></li>
+			</ul>
+		</nav>
+	</div>
+	<hr>
+	
+	<button><a href="http://12.42.204.30:7258/prodv1.html"> PRODUCTS DETAILS</a></button>
+  <div id="container1"></div>
+</div>
+</body>
+</html>
